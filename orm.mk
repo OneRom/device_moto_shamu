@@ -3,7 +3,7 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # Inherit some common OneRom stuff.
-$(call inherit-product, vendor/orm/configs/onerom_phone.mk)
+$(call inherit-product, vendor/orm/config/common_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
